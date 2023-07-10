@@ -1,0 +1,423 @@
+
+    body{
+        background-color: rgb(240, 6, 6);
+    }
+    section{
+        position: relative;
+        width: 14%;
+        height: 700px;
+        background-color: rgb(102, 100, 100);
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 25px;
+        box-shadow: 3px 3px 3px black solid;
+    }
+    /* .div1{
+        display: inline-block;
+        background-color: black;
+    }
+    .power{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+    }
+    .input{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        right: 100px;
+    } */
+    span{
+        height: 20px;
+        width: 40px;
+        display: inline-block;
+        background-color: red;
+        position: relative;
+        margin: 20px;
+        padding: 1px;
+    }
+    .power{
+        border-radius: 30%;
+        right: 5px;
+    }
+    .input{
+        position: absolute;
+        background-color: black;
+        border-radius: 20%;
+        font-size: x-small;
+        text-align: center;
+        padding: 0;
+        left: 120px;
+
+    }
+    .one{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        right: 5px;
+        bottom: 20px;
+    }
+    .two{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        right: 24px;
+        bottom: 20px;
+    }
+    .three{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 80px;
+        left: 120px;
+    }
+    .four{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 110px;
+        right: 5px;
+    }
+    .five{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 110px;
+        right: 25px;
+    }
+    .six{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 170px;
+        left: 120px;
+    }
+    .seven{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 200px;
+        left: -4px;
+    }
+    .eight{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 200px;
+        right: 25px;
+    }
+    .nine{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 260px;
+        left: 120px;
+    }
+    .guide{
+        background-color: black;
+        border-radius: 29%;
+        font-size: xx-small;
+        text-align: center;
+        padding: 0;
+        bottom: 298px;
+        left: -3px;
+    }
+    .zero{
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 290px;
+        right: 25px;
+    }
+    .chlist{
+        background-color: black;
+        border-radius: 29%;
+        font-size: xx-small;
+        text-align: center;
+        padding: 0;
+        bottom: 355px;
+        left: 119px;
+    }
+    .red{
+        height: 13px;
+        width: 20px;
+        background-color: rgb(240, 10, 10);
+        border-radius: 30%;
+        text-align: center;
+        padding: 0;
+        bottom: 385px;
+        left: 0px;
+    }
+    .green{
+        height: 13px;
+        width: 20px;
+        background-color: rgb(32, 223, 118);
+        border-radius: 30%;
+        text-align: center;
+        padding: 0;
+        bottom: 385px;
+        right: 20px;
+    }
+    .yellow{
+        height: 13px;
+        width: 20px;
+        background-color: yellow;
+        border-radius: 30%;
+        text-align: center;
+        padding: 0;
+        bottom: 445px;
+        left: 90px;
+    }
+    .blue{
+        height: 15px;
+        width: 20px;
+        background-color: rgb(7, 170, 199);
+        border-radius: 30%;
+        text-align: center;
+        padding: 0;
+        bottom: 445px;
+        left: 65px;
+    }
+    .menu{
+        height: 25px;
+        width: 30px;
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 590px;
+    }
+    .skip{
+        height: 25px;
+        width: 30px;
+        background-color: black;
+        border-radius: 29%;
+        text-align: center;
+        padding: 0;
+        bottom: 590px;
+        left: 50px;
+    }
+    .volume{
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        border-radius: 50%;
+        bottom: 750px;
+        left: 25px;
+    }
+    .ok{
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        padding: 0;
+        border-radius: 50%;
+        text-align: center;
+        bottom: 855px;
+        left: 50px;
+        box-shadow: 3px 3px 3px gray solid;
+    }
+    .back{
+        height: 25px;
+        width: 30px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 470px;
+
+    }
+    .exit{
+        height: 25px;
+        width: 30px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 470px;
+        left: 47px;
+    }
+    .vol{
+        height: 60px;
+        width: 28px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 390px;
+        
+    }
+    .channel{
+        height: 60px;
+        width: 28px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 390px;
+        left: 50px;
+    }
+    .home{
+        height: 25px;
+        width: 30px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 500px;
+        left: 58px;
+    }
+    .mute{
+        height: 25px;
+        width: 30px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 453px;
+        right: 15px;
+    }.txt{
+        height: 23px;
+        width: 30px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 795px;
+    }
+    .subtitle{
+        height: 23px;
+        width: 35px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29px;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 795px;
+        right: 18px;
+    }
+    .info{
+        height: 23px;
+        width: 30px;
+        background-color: black;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 859px;
+        left: 120px;
+    }
+    .music{
+        height: 25px;
+        width: 40px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: xx-small;
+        bottom: 895px;
+        right: 5px;
+    }
+    .free{
+        height: 25px;
+        width: 40px;
+        background-color: blueviolet;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: small;
+        bottom: 892px;
+        right: 30px;
+    }
+    .art{
+        height: 25px;
+        width: 40px;
+        background-color: blueviolet;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        font-size: small;
+        bottom: 960px;
+        left: 115px;
+    }
+    .netflix{
+        height: 25px;
+        width: 75px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 980px;
+        right: 10px;
+        color: black;
+    }
+    .prime{
+        height: 25px;
+        width: 75px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 1048px;
+        left: 80px;
+        color: black;
+    }
+    .youtube{
+        height: 25px;
+        width: 75px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 1075px;
+        right: 10px;
+        color: black;
+    }
+    .browser{
+        height: 25px;
+        width: 75px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 1143px;
+        left: 80px;
+        color: black;
+    }
+    .media{
+        height: 25px;
+        width: 75px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 1172px;
+        right: 10px;
+        color: black;
+    }
+    .microsoft{
+        height: 25px;
+        width: 75px;
+        background-color: antiquewhite;
+        padding: 0;
+        border-radius: 29%;
+        text-align: center;
+        bottom: 1237px;
+        left: 80px;
+        color: black;
+    }
+    

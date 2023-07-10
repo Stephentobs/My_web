@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: white;
+}
+header{
+    background-color: linear-gradient(90deg, whitesmoke);
+}
+.head div, .head ul{
+    display: inline-block;
+}
+.head ul{
+    float: right;
+    margin-right: 60px;
+}
+li{
+    display: inline-block;
+    
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 16.5px;
+    padding: 14px;
+}
+.stephen{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+    /* padding: 1px; */
+}
+.stephen a{
+    color: white;
+    padding: 0;
+    margin: 10px;
+}
+
+    .search_bar10{
+        position: absolute;
+        top: 250px;
+        left: 250px;
+        right: 0;
+        background-color: white;
+        padding: 6px;
+        
+    }
+    .search_bar10 input{
+        display: inline-block;
+        width: 75%;
+        height: 55px;
+        border-radius: 50px;
+        /* border: 20px; */
+        outline: none;
+        /* padding: 6px; */
+        font-size: large;
+        text-align: center;
+        border: 1px gray solid;
+    }
+    .search_bar10 div{
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        width: 50px;
+        height: 40px;
+        border-radius: 50px;
+        /* background-color: brown; */
+    }
+    .circle_part{
+        display: block;
+        position: absolute;
+        top: 13px;
+        width: 10px;
+        height: 10px;
+        left: 20px;
+        border-radius: 90%;
+        /* background-color: #888; */
+        border: rgb(44, 43, 43) 2px solid;
+        /* background: #888; */
+    }
+    
+    .handle_part{
+        display: block;
+        position: absolute;
+        /* top: 13px; */
+        bottom: 14.5px;
+        width: 10px;
+        height: 2.9px;
+        left: 30.5px;
+        background-color: rgb(44, 43, 43);
+        transform: rotate(30deg);
+        border-radius: 7px 0 0 7px;
+    }
+
+    footer{
+        position: absolute;
+        background-color: rgb(241, 241, 241);
+        height: 80px;
+        width: 100%;
+        
+        
+    }
+
+    .foot div{
+        position: absolute;
+        display: inline-block;
+        
+    }
+
+    .nig{
+        display: inline-block;
+        position: absolute;
+        color: gray;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .under div{
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        color: gray;
+    }
+    .about{
+        display: inline-block;
+        bottom: 0;
+        font-size: 18px;
+    }
+    .advert{
+        display: inline-block;
+        bottom: 0;
+        left: 80px;
+        font-size: 18px;
+    }
+    .business{
+        display: inline-block;
+        bottom: 0;
+        left: 200px;
+        font-size: 18px;
+
+    }
+    .right div{
+        position: absolute;
+        /* float: right; */
+        bottom: 0;
+        color: gray;
+
+    }
+    .pri{
+        /* position: relative; */
+        bottom: 0;
+        left: 1000px;
+        font-size: 18px;
+    }
+    .term{
+        bottom: 0;
+        left: 1100px;
+        font-size: 18px;
+    }
+    .set{
+        bottom: 0;
+        left: 1200px;
+        font-size: 18px;
+    }
+
+    .word{
+        display: inline-block;
+        position: absolute;
+        bottom: 350px;
+        padding: 2px;
+        right: 500px;
+        color: gray;
+
+    }
+    .gs{
+        position: absolute;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        font-size: x-large;
+        text-align: center;
+        
+        background-color: rgb(241, 241, 241);
+        left: -390px;
+        padding-top: 6px;
+    }
+    .ifl{
+        position: absolute;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        font-size: x-large;
+        text-align: center;
+        background-color: rgb(241, 241, 241);
+        padding-top: 6px;
+        left: -120px;
+    }
+    .language{
+        position: absolute;
+        bottom: 240px;
+        padding: 2px;
+        left: 400px;
+        color: gray;
+        font-size: x-large;
+    }
+.img{
+    position: absolute;
+    bottom: 395px;
+    left: 1029px;
+}
+    .google{
+        top: 120px;
+        left: 440px;
+        position: absolute;
+        display: inline-block;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 90px;
+        background-color: white;
+        /* color: blue; */
+        text-align: center;
+    } .google span{
+        position: relative;
+    }
+
+
+
+    .G{
+        color: rgb(76, 76, 221);
+        /* top: 100px; */
+        padding: 3px;
+        left: 70px;
+    }
+
+    .O1{
+        color: rgb(214, 127, 127);
+        left: 35px;
+    }
+    .O{
+        color: orange;
+        /* left: 1px; */
+    }
+    .G2{
+        color: rgb(76, 76,221);
+        right: 30px;
+        /* top: 100px; */
+        /* float: right; */
+    }
+    .L{
+        color: rgb(3, 88, 3);
+        right: 70px;
+    }
+    .E{
+        color: rgb(214, 127, 127);
+        right: 105px;
+    }
+    footer{
+        background-color: linear-gradient(90deg whitesmoke);
+        bottom: 0;
+    }
+    .Nigeria ul{
+        display: inline-block;
+    }
+
+    .mid{
+        bottom: 0;
+        position: relative;
+    }
+    .carbon{
+        bottom: -60px;
+        position: relative;
+        display: inline-block;
+        right: -570px;
+        color: gray;
+        font-size: 18px;
+    }
+    li{
+        bottom: 0;
+    }
+
+
+    

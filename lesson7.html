@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout with Tables</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>#</th>
+                <th>Full name</th>
+                <th>Gender</th>
+                <th>Phone number</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Adepoju Stephen</td>
+                    <td>Male</td>
+                    <td>08106352659</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Adeniyi Kemi</td>
+                    <td>Female</td>
+                    <td>08106425859</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Olaniyi Segun</td>
+                    <td>Male</td>
+                    <td>08055642392</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ogunsola Doris</td>
+                    <td>Female</td>
+                    <td>08032012841</td>
+                </tr>
+                <td colspan="3">New Members Info Below Members Info Below</td>
+                <td>New</td>
+                 <tr>
+                    <td>5</td>
+                    <td>Olowoyo Daniel</td>
+                    <td>Male</td>
+                    <td>08055642392</td>
+                </tr>
+                <tr>
+                <td>6</td>
+                <td>Mr Emmanuel</td>
+                <td>Male</td>
+                <td>08056084536</td>
+            </tr>
+            </tbody>
+            
+            
+            
+        </tables>
+       <style>
+        table{
+            margin: 0 auto;
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th{
+            text-transform: uppercase;
+        }
+       th, td{
+            padding: 9px;
+            border: 1px #b9b9b9 solid;
+            text-align: center;
+       }
+       tr:nth-child(even){background-color: rgb(242, 242, 247);
+       }
+       tr{
+        transition: 2s;
+    }
+
+    tr:hover{
+        cursor: pointer;
+        background-color: blueviolet;
+       }
+       </style>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 8 positioning</title>
+</head>
+<body>
+    <section>
+        <div class="div-1"></div>
+        <div class="div-2"></div>
+        <div class="div-3"></div>
+        <div class="div-4"></div>
+        <div class="middle-div"></div>
+    </section>
+
+    <style>
+    section{
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        background-color: green;
+        position: relative;
+
+}
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        outline: 1px solid black;
+        border-radius: 50%;
+        bottom: o;
+        position: absolute;
+    }
+    .div-1{
+        right: 0;
+    }
+    .div-2{
+        left: 0;
+    }
+    .div-3{
+        bottom: 0;
+    }
+    .div-4{
+        bottom: 0;
+        right: 0;
+    }
+    .middle-div{
+       
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%;
+        
+    }
+    </style>
+</body>
+</html>
